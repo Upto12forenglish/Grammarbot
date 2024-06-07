@@ -1,0 +1,14 @@
+streamlit
+transformers==4.30.2
+fsspec==2022.7.1
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.11.0+cpu
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.12.0+cpu
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz#sha256=06c80936324012d1223291d2af41a5229e746dc2dee8fe31a532666ee3d18aaa
+errant @git+https://github.com/Upto12forenglish/errant.git
+gramformer @ git+https://github.com/PrithivirajDamodaran/Gramformer.git@23425cd2e98a919384cab6156af8adf1c9d0639a
+pyTelegramBotAPI
+requests
+wasabi==0.8.2
+spacy==2.3.9
